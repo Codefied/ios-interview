@@ -162,17 +162,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UserProject/Pods-UserProject-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserProject/Pods-UserProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserProject/Pods-UserProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserProject/Pods-UserProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UserProject/Pods-UserProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		57A47F5E6B8C0DFDBF04B8D0 /* [CP] Check Pods Manifest.lock */ = {
