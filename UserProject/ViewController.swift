@@ -10,22 +10,15 @@ import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
-  
   override func viewDidLoad() {
     super.viewDidLoad()
+
     fetchData()
   }
   
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-  
   func fetchData() {
-    Alamofire.request("https://jsonplaceholder.typicode.com/users",
-                      method: .get)
-      .responseJSON { response in
+    AF.request("https://jsonplaceholder.typicode.com/users").responseJSON { response in
+      // ...
     }
   }
 }
-

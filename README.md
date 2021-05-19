@@ -1,8 +1,7 @@
 # ios-interview
 
-To get running:
+Instructions:
 
-1) Pull
-2) pod install
-3) open work space
-4) run it
+1) Clone this repository.
+2) Run `pod install`.
+3) Open `UserProject.xcworkspace`.
